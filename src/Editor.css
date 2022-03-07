@@ -1,0 +1,60 @@
+.dual-editor {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    max-height: 100%;
+}
+
+.dual-editor > * {
+    width: 50%;
+    padding: 1em;
+    overflow-y: scroll;
+}
+
+#editor {
+    font-size: 1.4em;
+    resize: none;
+}
+
+#preview {
+    font-size: 1.1em;
+}
+
+#preview img {
+    max-width: 100%;
+}
+
+#preview h1 {
+    font-size: 3rem;
+}
+
+#preview h2 {
+    font-size: 2.5rem;
+}
+
+#preview h3 {
+    font-size: 2rem;
+}
+
+#preview h4 {
+    font-size: 1.7rem;
+}
+
+#preview h5 {
+    font-size: 1.5rem;
+}
+
+#preview h6 {
+    font-size: 1.3rem;
+}
+
+
+#preview pre {
+    width: 100%;
+    overflow-x: scroll;
+    border: 1px solid grey;
+}
+
+#preview p > code {
+    border: 1px dotted #969;
+}

@@ -1,0 +1,28 @@
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-logo {
+  height: 100%;
+}
+
+.App-header {
+  background-color: #282c34;
+  height: 64px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  color: white;
+}
+
+.App-header > * {
+  margin: 8px 16px 8px 16px;
+}
+
+main {
+  max-height: calc(100% - 64px);
+  height: calc(100% - 64px);
+}
